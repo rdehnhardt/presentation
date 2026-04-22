@@ -26,7 +26,7 @@ export default function SlideCover() {
         style={{ '--r': '-14deg' }}
       >
         <div className="animate-float">
-          <FlowerBadge size={90} />
+          <FlowerBadge size={130} />
         </div>
       </motion.div>
 
@@ -38,7 +38,7 @@ export default function SlideCover() {
         style={{ '--r': '18deg' }}
       >
         <div className="animate-float" style={{ animationDelay: '1.2s' }}>
-          <Star fill="#7C5CFF" size={70} />
+          <Star fill="#7C5CFF" size={100} />
         </div>
       </motion.div>
 
@@ -49,7 +49,7 @@ export default function SlideCover() {
         className="absolute bottom-[30%] right-[14%] z-10"
       >
         <div className="animate-float" style={{ animationDelay: '0.7s' }}>
-          <FlowerBadge size={70} color="#C9B6FF" center="#FFD65C" />
+          <FlowerBadge size={100} color="#C9B6FF" center="#FFD65C" />
         </div>
       </motion.div>
 
@@ -60,7 +60,7 @@ export default function SlideCover() {
         className="absolute bottom-[30%] left-[12%] z-10"
       >
         <div className="animate-float" style={{ animationDelay: '1.8s' }}>
-          <Star fill="#FF5E7E" size={54} />
+          <Star fill="#FF5E7E" size={78} />
         </div>
       </motion.div>
 
@@ -131,7 +131,7 @@ export default function SlideCover() {
           className="mt-10 flex flex-wrap items-center justify-center gap-3"
         >
           <Sticker color="bg-butter" rotate={-3}>junge talente</Sticker>
-          <Sticker color="bg-lilac" rotate={2}>autos · teile · fragen</Sticker>
+          <Sticker color="bg-lilac" rotate={2}>Girl&apos;s Day</Sticker>
           <Sticker color="bg-coral" rotate={-1}>ca. 12 minuten</Sticker>
         </motion.div>
       </div>

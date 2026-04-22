@@ -98,15 +98,15 @@ export default function SlideNumbers() {
                   was unsere teile können · {s.label}
                 </div>
               </div>
-              <div className="mt-2 flex items-end gap-5">
-                <div className="font-display tracking-display leading-none text-7xl md:text-[6vw]">
+              <div className="mt-2 flex items-end gap-4">
+                <div className="font-display tracking-display leading-none text-5xl md:text-[3.6vw] shrink-0">
                   {s.icon}
                 </div>
-                <div className="pb-2 font-display italic text-4xl md:text-[3vw] leading-none">
+                <div className="pb-1 font-display italic text-3xl md:text-[2.2vw] leading-[0.95] whitespace-nowrap">
                   {s.action}
                 </div>
               </div>
-              <p className="mt-4 max-w-sm font-editorial italic text-xl md:text-[1.4vw] leading-snug opacity-90">
+              <p className="mt-4 max-w-sm font-editorial italic text-lg md:text-[1.15vw] leading-snug opacity-90">
                 {s.caption}
               </p>
             </motion.div>
