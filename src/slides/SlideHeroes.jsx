@@ -35,7 +35,7 @@ export default function SlideHeroes() {
         >
           wir arbeiten{' '}
           <span className="italic font-light" style={{ fontVariationSettings: '"opsz" 144' }}>
-            weltweit
+            Weltweit
           </span>
           .
         </motion.h2>
@@ -46,11 +46,11 @@ export default function SlideHeroes() {
           transition={{ delay: 0.25, duration: 0.5 }}
           className="mt-4 flex items-center gap-5 font-display italic text-2xl text-ink/70"
         >
-          <span>viele länder</span>
+          <span>viele Länder</span>
           <Star fill="#FF5E7E" size={14} />
-          <span>tausende menschen</span>
+          <span>tausende Menschen</span>
           <Star fill="#FFD65C" size={14} />
-          <span>ein team</span>
+          <span>ein Team</span>
         </motion.div>
 
         {/* Map */}
@@ -116,10 +116,10 @@ export default function SlideHeroes() {
           transition={{ delay: 1.2, duration: 0.5 }}
           className="mt-6 flex flex-col items-center gap-4 text-center max-w-3xl"
         >
-          <p className="font-editorial italic text-2xl text-ink/75">
+          <p className="font-editorial italic text-2xl text-ink/75 px-6">
             ein teil, das in{' '}
-            <span className="font-hand not-italic text-coral text-3xl">deutschland</span>{' '}
-            entwickelt wird, hilft menschen in brasilien — sicher auto zu fahren.
+            <span className="font-hand not-italic text-coral text-4xl">Deutschland</span>{' '}
+            entwickelt wird, hilft menschen in einem anderen Land sicher Auto zu fahren.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Sticker color="bg-butter" rotate={-2}>mehrere länder</Sticker>

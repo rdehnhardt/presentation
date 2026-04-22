@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { Squiggle, Sticker } from '../components/Deco.jsx'
 
 const hints = [
-  { n: '01', t: 'Kein ganzes Auto — aber ohne uns fährt keines.', color: 'bg-coral', rotate: -4 },
+  { n: '01', t: 'Kein ganzes Auto aber ohne uns fährt keines.', color: 'bg-coral', rotate: -4 },
   { n: '02', t: 'Etwas, das sich dreht, bewegt und Kräfte weitergibt.', color: 'bg-butter', rotate: 3 },
   { n: '03', t: 'Wahrscheinlich seid ihr heute schon damit gefahren.', color: 'bg-lilac', rotate: -2 },
 ]

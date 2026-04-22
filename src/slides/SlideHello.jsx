@@ -69,7 +69,7 @@ export default function SlideHello() {
         <div className="rounded-2xl bg-butter p-5 text-ink">
           <div className="font-body text-xs uppercase tracking-[0.22em] opacity-70">kleiner deal</div>
           <p className="mt-2 font-editorial italic text-2xl leading-tight">
-            die neugierigste frage am ende gewinnt applaus 👏
+            die neugierigste Frage am ende gewinnt Applaus 👏
           </p>
         </div>
       </motion.div>
@@ -119,7 +119,7 @@ export default function SlideHello() {
           transition={{ delay: 0.65, duration: 0.5 }}
           className="mt-6 max-w-3xl font-editorial italic text-3xl md:text-[1.9vw] text-cream/85 leading-snug"
         >
-          werkstoffingenieurin · senior manager project management · bei Dauch.
+          Werkstoffingenieurin · Senior Manager Project Management · bei Dauch.
         </motion.p>
 
         <motion.div

@@ -71,11 +71,11 @@ export default function SlideThanks() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.55, duration: 0.6 }}
-          className="mt-10 max-w-4xl font-editorial italic text-4xl md:text-[2.4vw] text-ink/85 leading-[1.25]"
+          className="mt-10 max-w-4xl font-editorial italic text-4xl md:text-[2.4vw] text-ink/85 leading-[1.5]"
         >
-          bleibt neugierig, stellt fragen — und{' '}
-          <span className="font-hand not-italic text-5xl md:text-[3.2vw] text-plum">
-            vielleicht baut ihr die autos der zukunft
+          bleibt neugierig, stellt Fragen und &nbsp;
+          <span className="font-hand not-italic text-4xl md:text-[4vw] text-plum">
+            vielleicht baut ihr die Autos der Zukunft
           </span>
           .
         </motion.p>

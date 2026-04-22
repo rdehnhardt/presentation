@@ -5,8 +5,8 @@ const stats = [
   {
     icon: '→',
     label: '01',
-    action: 'vorwärts',
-    caption: 'kraft vom motor zu den rädern — und los geht\'s.',
+    action: 'Vorwärts',
+    caption: 'Kraft vom Motor zu den Rädern und los geht\'s.',
     color: 'bg-coral',
     text: 'text-ink',
     rotate: -4,
@@ -14,8 +14,8 @@ const stats = [
   {
     icon: '←',
     label: '02',
-    action: 'rückwärts',
-    caption: 'präzise einparken, aus der garage, sauber rangieren.',
+    action: 'Rückwärts',
+    caption: 'präzise einparken, aus der Garage, sauber rangieren.',
     color: 'bg-lilac-deep',
     text: 'text-cream',
     rotate: 3,
@@ -23,8 +23,8 @@ const stats = [
   {
     icon: '⟲',
     label: '03',
-    action: 'sicher lenken',
-    caption: 'in kurven stabil bleiben — die spur halten.',
+    action: 'Sicher lenken',
+    caption: 'in Kurven stabil bleiben, die Spur halten.',
     color: 'bg-butter',
     text: 'text-ink',
     rotate: -2,
@@ -32,8 +32,8 @@ const stats = [
   {
     icon: '≈',
     label: '04',
-    action: 'ruhig fahren',
-    caption: 'wenig vibration, wenig geräusch — einfach angenehm.',
+    action: 'Ruhig fahren',
+    caption: 'wenig Vibration, wenig Geräusch, einfach angenehm.',
     color: 'bg-ink',
     text: 'text-cream',
     rotate: 4,
@@ -69,17 +69,17 @@ export default function SlideNumbers() {
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1, duration: 0.55 }}
-          className="font-display tracking-display text-ink text-[6.5vw] md:text-[4.8vw] leading-[0.9] max-w-[22ch]"
+          className="font-display tracking-display text-ink text-[6.5vw] md:text-[4.8vw] leading-[0.9] max-w-[20ch]"
         >
           wir bauen die{' '}
           <span className="italic font-light" style={{ fontVariationSettings: '"opsz" 144' }}>
-            teile
+            Teile
           </span>
-          , die autos fahren lassen.
+          , die Autos fahren lassen.
         </motion.h2>
 
         {/* Card grid — centered with baguncinha */}
-        <div className="mt-12 grid grid-cols-2 gap-7 w-full max-w-[1100px]">
+        <div className="mt-20 grid grid-cols-2 gap-7 w-full max-w-[1100px]">
           {stats.map((s, i) => (
             <motion.div
               key={s.action}
@@ -112,20 +112,6 @@ export default function SlideNumbers() {
             </motion.div>
           ))}
         </div>
-
-        {/* Footnote */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.95 }}
-          className="mt-10 flex items-center justify-center gap-3 max-w-3xl"
-        >
-          <div className="h-px flex-1 bg-ink/20" />
-          <span className="font-editorial italic text-lg text-ink/65">
-            auch wenn sich autos verändern, bleibt diese arbeit wichtig.
-          </span>
-          <div className="h-px flex-1 bg-ink/20" />
-        </motion.div>
       </div>
     </section>
   )

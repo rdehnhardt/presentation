@@ -6,9 +6,9 @@ const steps = [
   {
     q: 'Dein Schulranzen ist zu schwer und tut an den Schultern weh. Was ist das Problem?',
     options: [
-      { t: 'Das Design — die Träger drücken' },
-      { t: 'Das Gewicht — zu viele Bücher' },
-      { t: 'Das Material — zu schwerer Stoff' },
+      { t: 'Das Design: die Träger drücken' },
+      { t: 'Das Gewicht: zu viele Bücher' },
+      { t: 'Das Material: zu schwerer Stoff' },
     ],
     hint: 'bei ingenieur:innen gibt es oft mehr als eine richtige antwort.',
     feedback: 'gut gedacht! alle drei sind teil des problems.',
@@ -18,13 +18,13 @@ const steps = [
     options: [
       { t: 'Bessere, breitere Träger' },
       { t: 'Leichtere Materialien' },
-      { t: 'Weniger Bücher — oder digital' },
+      { t: 'Weniger Bücher oder digital' },
     ],
     hint: 'kreativität ist wichtig. kombinieren ist erlaubt.',
-    feedback: 'boa! ingenieur:innen kombinieren oft mehrere ideen.',
+    feedback: 'gut! ingenieur:innen kombinieren oft mehrere ideen.',
   },
   {
-    q: 'Und wenn du es gebaut hast — was kommt dann?',
+    q: 'Und wenn du es gebaut hast, was kommt danach?',
     options: [
       { t: 'Testen bis es hält' },
       { t: 'Andere ausprobieren lassen' },
@@ -160,7 +160,7 @@ export default function SlideQuiz() {
 
               <div className="mt-6 flex items-center justify-between gap-4">
                 <span className="font-editorial italic text-lg text-ink/75 max-w-[40ch]">
-                  {answered ? current.feedback : 'wähle eine idee — oder überleg kurz still mit.'}
+                  {answered ? current.feedback : 'wähle eine idee oder überleg kurz still mit.'}
                 </span>
                 <button
                   onClick={nextQ}

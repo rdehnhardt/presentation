@@ -4,28 +4,28 @@ import { Squiggle, Sticker, Star } from '../components/Deco.jsx'
 const items = [
   {
     n: 'Warum funktioniert das nicht gut?',
-    d: 'das echte problem finden — nicht nur das symptom.',
+    d: 'das echte Problem finden, nicht nur das Symptom.',
     color: 'bg-coral',
     text: 'text-ink',
     rotate: -3,
   },
   {
     n: 'Wie machen wir es stärker?',
-    d: 'materialien, formen, ideen — testen was wirklich hält.',
+    d: 'Materialien, Formen, Ideen testen was wirklich hält.',
     color: 'bg-butter',
     text: 'text-ink',
-    rotate: 2,
+    rotate: 3,
   },
   {
     n: 'Wie machen wir es sicherer?',
-    d: 'für die menschen, die es später benutzen. immer.',
+    d: 'für die Menschen, die es später benutzen.',
     color: 'bg-lilac-deep',
     text: 'text-cream',
     rotate: -2,
   },
   {
     n: 'Wie machen wir es langlebiger?',
-    d: 'bei Dauch testen wir sehr oft — damit es jahre hält.',
+    d: 'bei Dauch testen wir sehr oft damit es Jahre hält.',
     color: 'bg-lime',
     text: 'text-ink',
     rotate: 3,
@@ -36,8 +36,8 @@ export default function SlideAgenda() {
   return (
     <section className="relative h-full w-full overflow-hidden bg-cream">
       {/* ambient */}
-      <div className="absolute top-[12%] -left-10 h-[240px] w-[240px] rounded-full bg-coral-soft/30 blur-3xl" />
-      <div className="absolute bottom-[8%] -right-10 h-[260px] w-[260px] rounded-full bg-lilac/30 blur-3xl" />
+      <div className="absolute top-[12%] -left-10 h-60 w-60 rounded-full bg-coral-soft/30 blur-3xl" />
+      <div className="absolute bottom-[8%] -right-10 h-65 w-65 rounded-full bg-lilac/30 blur-3xl" />
 
       <div className="relative z-10 flex h-full w-full flex-col items-center justify-center px-10 pt-24 pb-28 text-center">
         <motion.div
@@ -64,7 +64,7 @@ export default function SlideAgenda() {
             className="italic font-light text-coral"
             style={{ fontVariationSettings: '"opsz" 144' }}
           >
-            ingenieur:innen?
+            Ingenieur:innen?
           </span>
         </motion.h2>
 
@@ -74,8 +74,8 @@ export default function SlideAgenda() {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="mt-5 max-w-2xl font-editorial italic text-2xl text-ink/75"
         >
-          wir <span className="font-hand not-italic text-coral text-3xl">lösen probleme</span>{' '}
-          — und stellen dafür gute fragen.
+          wir <span className="font-hand not-italic text-coral text-3xl">lösen Probleme</span>&nbsp;
+          und stellen dafür gute Fragen.
         </motion.p>
 
         {/* 2x2 grid of questions */}
@@ -117,7 +117,7 @@ export default function SlideAgenda() {
             className="inline-flex items-center gap-2.5 rounded-xl border-2 border-ink bg-ink px-5 py-2.5 text-cream font-display italic text-2xl md:text-[1.45vw] shadow-[4px_5px_0_0_rgba(42,23,53,0.5)]"
           >
             <Star fill="#FFD65C" size={16} />
-            im team
+            im Team
           </motion.div>
           <motion.div
             whileHover={{ rotate: 0, scale: 1.03 }}
@@ -125,7 +125,7 @@ export default function SlideAgenda() {
             animate={{ rotate: 3 }}
             className="inline-flex items-center gap-2.5 rounded-xl border-2 border-ink bg-butter px-5 py-2.5 text-ink font-display italic text-2xl md:text-[1.45vw] shadow-[4px_5px_0_0_rgba(42,23,53,0.85)]"
           >
-            mein job: planen, lösen, umsetzen
+            mein Job: planen, lösen, umsetzen
             <span className="font-hand not-italic text-3xl md:text-[1.9vw] text-coral">✿</span>
           </motion.div>
         </motion.div>

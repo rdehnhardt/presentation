@@ -83,9 +83,9 @@ export default function SlideCover() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15, duration: 0.7 }}
-          className="font-display tracking-display text-ink leading-[0.82] text-[11vw] md:text-[9vw]"
+          className="font-display tracking-display text-ink leading-[0.72] text-[11vw] md:text-[9vw]"
         >
-          <span className="block">hallo,</span>
+          <span className="block">Hallo,</span>
           <span className="block">
             <span className="relative inline-block">
               <span
@@ -117,9 +117,9 @@ export default function SlideCover() {
           transition={{ delay: 0.45, duration: 0.6 }}
           className="mt-10 max-w-2xl font-editorial italic text-ink/80 text-3xl md:text-[2vw] leading-snug"
         >
-          ein kleiner einblick in das, was ingenieur:innen bei Dauch machen —{' '}
-          <span className="font-hand not-italic text-coral text-5xl md:text-[3vw]">
-            und warum das spaß macht
+          ein kleiner Einblick in das, was Ingenieur:innen bei Dauch machen {' '}
+          <span className="font-hand not-italic text-coral text-5xl md:text-[3.8vw]">
+            und warum das Spaß macht
           </span>
           .
         </motion.p>
